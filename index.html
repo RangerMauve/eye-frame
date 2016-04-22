@@ -1,0 +1,28 @@
+<title>RangerMauve</title>
+<script src="bundle.js"></script>
+<a-scene>
+	<a-entity look-at="#me" text="text: MAUVE" material="color: #84C;" position="-1.1 -2 0"></a-entity>
+	<a-entity position="0 2 -8" scale="6 6 6">
+			<a-entity
+				geometry="primitive: sphere; radius: 1.01"
+				material="side: back; color: black;">
+			</a-entity>
+			<a-entity
+				geometry="primitive: sphere; radius: 1"
+				material="side: back; color: white;">
+			</a-entity>
+			<a-entity
+				geometry="primitive: sphere; radius: 0.5"
+				material="side: back; color: black;">
+			</a-entity>
+			<a-entity
+				geometry="primitive: sphere; radius: 0.6"
+				material="side: back; color: #84C;">
+			</a-entity>
+	</a-entity>
+
+	<a-entity id="me" position="0 2 6" camera gamepad-controls look-controls wasd-controls></a-entity>
+
+	<a-sky color="#FAFAFA"></a-sky>
+	<!-- <a-plane color="#AAA" height="20" width="20" rotation="-90 0 0"></a-plane> -->
+</a-scene>

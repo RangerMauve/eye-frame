@@ -1,0 +1,34 @@
+{
+  "name": "eye-frame",
+  "version": "1.0.0",
+  "description": "My eyeball in a-frame",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify ./ > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/eye-frame.git"
+  },
+  "keywords": [
+    "aframe",
+    "eye",
+    "logo"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/eye-frame/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/eye-frame",
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "dependencies": {
+    "aframe-gamepad-controls": "^0.3.5",
+    "aframe-layout-component": "^1.1.0",
+    "aframe-template-component": "^1.2.0",
+    "aframe-text-component": "^0.3.0"
+  }
+}
